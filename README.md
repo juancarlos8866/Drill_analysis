@@ -23,7 +23,7 @@ Run the Python or Bash scripts to predict the drill state based on operational p
 
 The repository includes a Bash script (`predict_drill_state.sh`) designed for easy prediction of the drill state. Here's how to use it:
 
-1. **Setup**: Ensure you have the Python script (`predict_drill_state.py`) and the model file (`drill_model.pkl`) in the same directory as the Bash script.
+1. **Setup**: Ensure you have the Python script (`predict_drill_state.py`) and the model file (`drill_model.pkl`, which can be created by running the Create_pkl_file.ipynb Jupyter Notebook before runing the main bash script) in the same directory as the Bash script.
 
 2. **Execution**: Run the script from the terminal:
    ```bash
